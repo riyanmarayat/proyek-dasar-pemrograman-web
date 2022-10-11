@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@400;700&display=swap');
+/* https://colorhunt.co/palette/f0e9ffcea9ffb346ff545454 */
+body {
+    font-family: 'Noto Sans' ,sans-serif;
+    background-color: #F0E9FF;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    padding: 20px;
+    color: #F0E9FF;
+    background-color: #B346FF;
+    text-align: right;
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #F0E9FF;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.profile #diri img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+.card {
+    color: #F0E9FF;
+    font-weight: 600;
+    background-color: #CEA9FF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    color: #545454;
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding: 60px;
+    background-color: #B346FF;
+    text-align: center;
+    font-size: 24px;
+    color: #F0E9FF;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 24px;
+}
+
+nav {
+    background-color: #CEA9FF;
+    padding: 7px;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: inline;
+}
+
+@media screen and (max-width: 1000px){
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
